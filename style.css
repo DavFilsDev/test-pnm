@@ -1,15 +1,48 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+  font-family: Open Sans;
+  padding: 0;
+  margin-top: 25px;
+  background-image: url("Images/num3.jpg");
 }
 
-h1 {
-  color: #333;
+h2{
+  font-family: Open Sans;
+  text-align: center;
+  color:#1a2930;
+  font-size: 15px;
 }
 
-#data-container {
-  margin-top: 20px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  background-color: #f9f9f9;
+.container{
+  width: 50vw;
+  height: 15vh;
+  margin: auto;
+  border: 2px solid white;
+  background-color: aqua;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  border-radius: 60px;
+}
+
+table {
+  border-collapse: collapse; 
+  margin: 5vh auto; 
+  font-family: Arial, sans-serif;  
+  width: 80vw; 
+}
+
+th {
+  background-color: #CC6600; 
+  font-weight: bold; 
+  padding: 3vh 3vw;
+  text-align: center;
+}
+
+td {
+  padding: 2vh 1vw; 
+  background-color: aliceblue;
+  text-align: center;
 }
