@@ -4,7 +4,7 @@ caracteres = ['A', 'B', 'C', 'D']
 r = random.choice(caracteres)
   
 with open("Data/ValidedData.txt", "w") as fichier:
-  idMax = 160
+  idMax = 300
 
   for i in range(1, 10):
    fichier.write(f"00{i}FRS1{random.choice(caracteres)}2{random.choice(caracteres)}3{random.choice(caracteres)}4{random.choice(caracteres)}5{random.choice(caracteres)}6{random.choice(caracteres)}7{random.choice(caracteres)}8{random.choice(caracteres)}9{random.choice(caracteres)}10{random.choice(caracteres)}\n")
